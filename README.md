@@ -3,7 +3,9 @@
 # To do:
 - create git repository (done)
 - find data (done)
-- upload data and paramters on notebook, set right units
+- upload data (done)
+- compute all the ne! using YMW16 
+- and paramters on notebook, set right units
 - write the likelihood
 - produce the mcmc sample
 - do plots
