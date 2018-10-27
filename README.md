@@ -4,10 +4,11 @@
 - create git repository (done)
 - find data (done)
 - upload data (done)
-- compute all the ne! using YMW16 
-- and paramters on notebook, set right units
-- write the likelihood
-- produce the mcmc sample
+- compute all the ne! using YMW16 (done)
+- and paramters on notebook, set right units  (done)
+- write the likelihood (done)
+- include priors 
+- produce the mcmc sample (done?)
 - do plots
 - add a lot of comments in the notebook
 - discuss fit result
