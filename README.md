@@ -7,7 +7,7 @@
 - compute all the ne! using YMW16 (done)
 - and paramters on notebook, set right units  (done)
 - write the likelihood (done)
-- include priors 
+- include priors (done - prior with better justification?)
 - produce the mcmc sample (done?)
 - do plots
 - add a lot of comments in the notebook
