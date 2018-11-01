@@ -1,6 +1,6 @@
 # Fitting.jl
 
-# To do:
+<!-- # To do:
 - create git repository (done)
 - find data (done)
 - upload data (done)
@@ -11,21 +11,25 @@
 - add a lot of comments in the notebook (done)
 - check error on ratio from std (done)
 - do plots: strip in the epsilon-m plane (done)
-- write readme (introduction)
+- write readme (introduction done)
+- compare exclusion with previous bounds (done)
+- include priors (done - prior with better justification? need justificatio of lower bound - 
+result is lower bound-dependent - relate mcdm effect with photon mass effect to use photon mass lower bound.
+for upper bound look at approximations made)
+- write readme (add pictures)
 
-- include priors (done - prior with better justification?)
-- compare exclusion with previous bounds ?
 - discuss fit result (more?)
 - include other data points?
 
-- write readme (add pictures and comment out To do)
+- write readme (add pictures)
 - tag the final commit as "version 1 release"
 
 - add travis (?)
+-->
 
 # Signature of millicharged dark matter in pulsar dispersion measure (DM): a Bayesian analysis
 
-This Julia notebook was created as part of the Uinversity of Waterloo 2018 Computational Physics course, module II.
+The Julia notebook PulsarBayesian was created as part of the Uinversity of Waterloo 2018 Computational Physics course, module II.
 
 In the notebook, we analyze the dispersion measure data from a number of pulsars as a function of their distance. The dispersion measure, which causes a delay between the time of arrival of the pulsar signal in different frequency bands, is usally explained with the presence of ionized plasma in the galactim medium. The standard effect is determined by the density of the electrons integrated along the line of sight. 
 
@@ -33,6 +37,8 @@ We make the hypothesis that the dark matter is a particle charged under the elec
 
 We use the emcee Monte Carlo sampler to explore the posterior of the combined data and model. From the sample we obtain constraints at 1, 2 and 3 sigmas, and compare them with other bounds in the literature.
 
+For more information, see the notebook PulsarBayesian
+
 # Acknowledgment 
 
-This project was motivited by ongoing research in collaboration with Diego Blas, Andrea Caputo, Miguel Frias, Paolo Pani and Lijing Shao. 
+This project was motivited by ongoing research in collaboration with Diego Blas, Andrea Caputo, Miguel Frias, Paolo Pani and Lijing Shao. The ideas detailed here will appear in a future publication.
