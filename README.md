@@ -11,13 +11,14 @@
 - add a lot of comments in the notebook (done)
 - check error on ratio from std (done)
 - do plots: strip in the epsilon-m plane (done)
+- write readme (introduction)
 
 - include priors (done - prior with better justification?)
 - compare exclusion with previous bounds ?
 - discuss fit result (more?)
--include other data points?
+- include other data points?
 
-- write readme (with pictures and introduction)
+- write readme (add pictures and comment out To do)
 - tag the final commit as "version 1 release"
 
 - add travis (?)
@@ -28,7 +29,7 @@ This Julia notebook was created as part of the Uinversity of Waterloo 2018 Compu
 
 In the notebook, we analyze the dispersion measure data from a number of pulsars as a function of their distance. The dispersion measure, which causes a delay between the time of arrival of the pulsar signal in different frequency bands, is usally explained with the presence of ionized plasma in the galactim medium. The standard effect is determined by the density of the electrons integrated along the line of sight. 
 
-We make the hypothesis that the dark matter is a particle charged under the electromagnetic field, with charge $q=\epsilon  e$ and mass $m_{\tex{dm}}$. The dark matter gives an additional contribution to the dispersion measure. The observational data can thus be used to put constraints on the dark matter parameter space.
+We make the hypothesis that the dark matter is a particle charged under the electromagnetic field, with charge ![eqn](https://latex.codecogs.com/gif.latex?q=\epsilon&space;e) and mass $m_{\tex{dm}}$. The dark matter gives an additional contribution to the dispersion measure. The observational data can thus be used to put constraints on the dark matter parameter space.
 
 We use the emcee Monte Carlo sampler to explore the posterior of the combined data and model. From the sample we obtain constraints at 1, 2 and 3 sigmas, and compare them with other bounds in the literature.
 
