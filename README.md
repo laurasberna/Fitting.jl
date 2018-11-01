@@ -41,7 +41,7 @@ We use the emcee Monte Carlo sampler to explore the posterior of the combined da
 
 ![bounds](https://i.imgur.com/U5Cvkr0.png)
 
-For more information, see the notebook PulsarBayesian.
+For more information, see the notebook "PulsarBayesian.ipynb". To visualize the notebook online, you can use this [viewer](http://nbviewer.jupyter.org/github/laurasberna/Fitting.jl/blob/master/PulsarBayesian.ipynb). 
 
 # Acknowledgment 
 
