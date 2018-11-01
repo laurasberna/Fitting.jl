@@ -7,11 +7,31 @@
 - compute all the ne! using YMW16 (done)
 - and paramters on notebook, set right units  (done)
 - write the likelihood (done)
-- include priors (done - prior with better justification?)
 - produce the mcmc sample (done)
-- do plots: strip in the epsilon-m plane
-- add a lot of comments in the notebook
-- discuss fit result
+- add a lot of comments in the notebook (done)
+- check error on ratio from std (done)
+- do plots: strip in the epsilon-m plane (done)
+
+- include priors (done - prior with better justification?)
+- compare exclusion with previous bounds ?
+- discuss fit result (more?)
+-include other data points?
+
 - write readme (with pictures and introduction)
-- add travis (?)
 - tag the final commit as "version 1 release"
+
+- add travis (?)
+
+# Signature of millicharged dark matter in pulsar dispersion measure (DM): a Bayesian analysis
+
+This Julia notebook was created as part of the Uinversity of Waterloo 2018 Computational Physics course, module II.
+
+In the notebook, we analyze the dispersion measure data from a number of pulsars as a function of their distance. The dispersion measure, which causes a delay between the time of arrival of the pulsar signal in different frequency bands, is usally explained with the presence of ionized plasma in the galactim medium. The standard effect is determined by the density of the electrons integrated along the line of sight. 
+
+We make the hypothesis that the dark matter is a particle charged under the electromagnetic field, with charge $q=\epsilon  e$ and mass $m_{\tex{dm}}$. The dark matter gives an additional contribution to the dispersion measure. The observational data can thus be used to put constraints on the dark matter parameter space.
+
+We use the emcee Monte Carlo sampler to explore the posterior of the combined data and model. From the sample we obtain constraints at 1, 2 and 3 sigmas, and compare them with other bounds in the literature.
+
+# Acknowledgment 
+
+This project was motivited by ongoing research in collaboration with Diego Blas, Andrea Caputo, Miguel Frias, Paolo Pani and Lijing Shao. 
