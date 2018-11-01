@@ -39,7 +39,7 @@ We make the hypothesis that the dark matter is a particle charged under the elec
 
 We use the emcee Monte Carlo sampler to explore the posterior of the combined data and model. From the sample we obtain constraints at 1, 2 and 3 sigmas, and compare them with other bounds in the literature.
 
-<img src="https://i.imgur.com/WxUYgUn.png" width="500" height="300">
+<img src="https://i.imgur.com/WxUYgUn.png" width="600" height="400">
 
 For more information, see the notebook "PulsarBayesian.ipynb". To visualize the notebook online, you can use this [viewer](http://nbviewer.jupyter.org/github/laurasberna/Fitting.jl/blob/master/PulsarBayesian.ipynb). 
 
