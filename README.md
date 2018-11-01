@@ -20,8 +20,8 @@ for upper bound look at approximations made)
 
 - discuss fit result (more?)
 - include other data points?
+- write readme (smaller pictures?)
 
-- write readme (add pictures)
 - tag the final commit as "version 1 release"
 
 - add travis (?)
