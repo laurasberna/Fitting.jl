@@ -17,10 +17,9 @@
 result is lower bound-dependent - relate mcdm effect with photon mass effect to use photon mass lower bound.
 for upper bound look at approximations made)
 - write readme (add pictures)
-
+- write readme (smaller pictures)
 - discuss fit result (more?)
 - include other data points?
-- write readme (smaller pictures?)
 
 - tag the final commit as "version 1 release"
 
@@ -35,7 +34,7 @@ In the notebook, we analyze the dispersion measure data from a number of pulsars
 
 ![data](https://i.imgur.com/YoPVa2N.png)
 
-We make the hypothesis that the dark matter is a particle charged under the electromagnetic field, with charge ![eqn](https://latex.codecogs.com/gif.latex?q=\epsilon&space;e) and mass ![eqn2](https://latex.codecogs.com/gif.latex?m_{\tex{dm}}). The dark matter gives an additional contribution to the dispersion measure. The observational data can thus be used to put constraints on the dark matter parameter space.
+We make the hypothesis that the dark matter is a particle charged under the electromagnetic field, with charge ![eqn](https://latex.codecogs.com/gif.latex?q=\epsilon&space;e) and mass ![eqn2](https://latex.codecogs.com/gif.latex?m_{\tex{dm}}). Such dark matter would give an additional contribution to the dispersion measure. The observational data can thus be used to put constraints on the dark matter parameter space.
 
 We use the emcee Monte Carlo sampler to explore the posterior of the combined data and model. From the sample we obtain constraints at 1, 2 and 3 sigmas, and compare them with other bounds in the literature.
 
